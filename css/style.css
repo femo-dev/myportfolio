@@ -447,7 +447,7 @@ a:hover{
 	background: rgba(0,0,0, 0.1);
 }
 .banner_content{
-	margin-top: 230px;
+	margin-top: 200px;
 }
 .banner_content h1{
 	font-weight: 600;
@@ -481,6 +481,7 @@ a:hover{
 	font-size: 14px;
     padding-bottom: 40px;
     max-width: 100%;
+    margin-top: 120px;
 }
 .dark_bg .banner_content p{
 	color: #fff;
