@@ -207,6 +207,20 @@
 			$(window).on('load', function() {  
 				$('.spinner').fadeOut();
 				$('.preloader').delay(350).fadeOut('slow'); 
+
+				/****TODO: TO IMPROVE ****/
+				var $grid2 = $('.work_content_area2').isotope({
+					// options
+				  });
+				  // filter items on button click
+				  $('.work_filter2').on( 'click', 'li', function() {
+					var filterValue = $(this).attr('data-filter');
+					$grid2.isotope({ filter: filterValue });
+				  });
+				  // filter items on button click
+				  $('.work_filter2').on( 'click', 'li', function() {
+					  $(this).addClass('active').siblings().removeClass('active')
+				  });				
 			}); 
 		/*END PRELOADER JS*/
 		
