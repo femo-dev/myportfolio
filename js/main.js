@@ -12,9 +12,9 @@
 	mapboxgl.accessToken = APP_MAPBOX_ACCESS_TOKEN;
 
 	//const geocodeURL = `https://api.mapbox.com/geocoding/v5/mapbox.places/130%20Henlow%20Bay,%20Winnipeg,%20Manitoba.json?access_token=${APP_MAPBOX_ACCESS_TOKEN}`;
-	let coord_longitude = -97.1927940184127;
-	let coord_latitude = 49.81501168900633;
-
+	let coord_longitude = -75.57009144360173;
+	let coord_latitude = 6.204463325617069;
+	
 	// fetch(geocodeURL)
 	// 	.then(response => response.json())
 	// 	.then(data => {
